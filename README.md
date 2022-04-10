@@ -28,10 +28,16 @@ In genreral the temparatue differenace between June and December in Oahu Hawaii 
 
 ## Additional Analysis
 
-  session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
+#### Total precipitation levels and amount of precipitation at the most active stations for June and December
 
-  session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
+    #December
+    session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
+    session.query(Measurement.prcp).filter(Measurement.station == 'USC00519281').filter(extract('month', Measurement.date) == 6).all()
+    #June
+    session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
+    session.query(Measurement.prcp).filter(Measurement.station == 'USC00519281').filter(extract('month', Measurement.date) == 12).all()
 
+#### Swell Analysis
 
 Given that this proposed business is a surfshop aas well a an ice cream shop an analysis of the best time of the year to surf at differnt locations in Oahu would be helpfull in finding the best locations to place the business. The National Oceanic and Atmospheric Administration's (NOAA) National Weather Service's (NWS) National Data Bouy Center website (https://www.ndbc.noaa.gov/)provides access to ocean data bouys at locations around the island of Ohau.
 
