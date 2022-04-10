@@ -15,9 +15,15 @@ June temperatures in the years 2010 to 2017 ranged from a low of 64 to a high of
 ## Summary
 In genreral the temparatue differenace between June and December in Oahu Hawaii does not tend to vary, however December has slighly cooler tempuratures than June. Based on this analysis the weather should be suiteable for an surf and icecream shop.
 
-![image](https://github.com/blueschistrocks/surfs_up/blob/b3beec2a22bf9fd85057370fdcd90ac957234de5/Images/Dec_temp_df.png)
-![image](https://github.com/blueschistrocks/surfs_up/blob/b3beec2a22bf9fd85057370fdcd90ac957234de5/Images/Dec_temp_stats.png)
-![image](https://github.com/blueschistrocks/surfs_up/blob/b3beec2a22bf9fd85057370fdcd90ac957234de5/Images/June_temp_df.png)
-![image](https://github.com/blueschistrocks/surfs_up/blob/b3beec2a22bf9fd85057370fdcd90ac957234de5/Images/June_temp_stats.png)
+## Images of Analysis Output
+
+#### December Temperature DateFrame
+![image](https://github.com/blueschistrocks/surfs_up/blob/b3beec2a22bf9fd85057370fdcd90ac957234de5/Images/Dec_temp_df.png)<br>
+#### December Temperature Statistics
+![image](https://github.com/blueschistrocks/surfs_up/blob/b3beec2a22bf9fd85057370fdcd90ac957234de5/Images/Dec_temp_stats.png)<br>
+#### June Temperature DateFrame
+![image](https://github.com/blueschistrocks/surfs_up/blob/b3beec2a22bf9fd85057370fdcd90ac957234de5/Images/June_temp_df.png)<br>
+#### June Temperature Statistics
+![image](https://github.com/blueschistrocks/surfs_up/blob/b3beec2a22bf9fd85057370fdcd90ac957234de5/Images/June_temp_stats.png)<br>
 
 
