@@ -26,4 +26,14 @@ In genreral the temparatue differenace between June and December in Oahu Hawaii 
 #### June Temperature Statistics
 ![image](https://github.com/blueschistrocks/surfs_up/blob/b3beec2a22bf9fd85057370fdcd90ac957234de5/Images/June_temp_stats.png)<br>
 
+## Additional Analysis
+
+  session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
+
+  session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
+
+
+Given that this proposed business is a surfshop aas well a an ice cream shop an analysis of the best time of the year to surf at differnt locations in Oahu would be helpfull in finding the best locations to place the business. The National Oceanic and Atmospheric Administration's (NOAA) National Weather Service's (NWS) National Data Bouy Center website (https://www.ndbc.noaa.gov/)provides access to ocean data bouys at locations around the island of Ohau.
+
+
 
