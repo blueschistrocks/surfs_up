@@ -39,7 +39,7 @@ In genreral the temparatue differenace between June and December in Oahu Hawaii 
 
 #### Swell Analysis
 
-Given that this proposed business is a surfshop aas well a an ice cream shop an analysis of the best time of the year to surf at differnt locations in Oahu would be helpfull in finding the best locations to place the business. The National Oceanic and Atmospheric Administration's (NOAA) National Weather Service's (NWS) National Data Bouy Center website (https://www.ndbc.noaa.gov/)provides access to ocean data bouys at locations around the island of Ohau.
+Given that this proposed business is a surfshop as well a an ice cream shop an analysis of the best time of the year to surf at differnt locations in Oahu would be helpfull in finding the best locations to place the business. In addition, an analysis of the surfing conditions will help the staff make sure the shop has the right surf gear for the surf conditions. The National Oceanic and Atmospheric Administration's (NOAA) National Weather Service's (NWS) National Data Bouy Center website (https://www.ndbc.noaa.gov/)provides access to ocean data bouys at locations around the island of Ohau.
 
 
 
