@@ -1,7 +1,7 @@
 # surfs_up
 
 ## Project Overview 
-The project intailed an analysis the temperature trends for the months of June and December in Oahu, Hawaii, in order to evaluate the year-round sustainability of a surf and ice cream shop business. Python, Pandas, SQLite and SQLAlchemy were used to perform this analysis.
+The project intailed an analysis the temperature trends for the months of June and December in Oahu, Hawaii, in order to evaluate the year-round sustainability of a surf and ice cream shop. Python, Pandas, SQLite and SQLAlchemy were used to perform this analysis.
 
 ## Resources
 - Data Sources: 
@@ -39,7 +39,10 @@ In genreral the temparatue differenace between June and December in Oahu Hawaii 
 
 #### Swell Analysis
 
-Given that this proposed business is a surfshop as well a an ice cream shop an analysis of the best time of the year to surf at differnt locations in Oahu would be helpfull in finding the best locations to place the business. In addition, an analysis of the surfing conditions will help the staff make sure the shop has the right surf gear for the surf conditions. The National Oceanic and Atmospheric Administration's (NOAA) National Weather Service's (NWS) National Data Bouy Center website (https://www.ndbc.noaa.gov/)provides access to ocean data bouys at locations around the island of Ohau.
+Given that this proposed business is a surfshop as well a an ice cream shop an analysis of the best time of the year to surf at differnt locations in Oahu would be helpfull in finding the best locations to place the business. In addition, an analysis of the surfing conditions will help the shop staff make sure that the shop has the right surf gear for the surf conditions. The National Oceanic and Atmospheric Administration's (NOAA) National Weather Service's (NWS) National Data Bouy Center website (https://www.ndbc.noaa.gov/) provides access to ocean data bouys at locations around the island of Ohau.  Based on the latitude/longitude of the weather stations used for the weather analysis I plotted the locations of the stations use Gmap to see whcih parts of the island we analysed the weather.
+
+
+
 
 
 
