@@ -4,8 +4,8 @@
 The project intailed an analysis the temperature trends for the months of June and December in Oahu, Hawaii, in order to evaluate the year-round sustainability of a surf and ice cream shop. Python, Pandas, SQLite and SQLAlchemy were used to perform this analysis.
 
 ## Resources
-- Data Sources: 
-- Software: Python 3.7 and Jupyter Notebook 6.0.3
+- Data Sources: [hawaii.sqlite](https://github.com/blueschistrocks/surfs_up/blob/f7a7727131863c205aeba0a78353a236c1dfdae1/hawaii.sqlite)
+- Software: Python 3 and Jupyter Notebook
 
 ## Results Discussion
 
@@ -58,7 +58,7 @@ Given that this proposed business is a surf shop as well as an ice cream shop an
 #### Map of Weather Station Locations
 ![image](https://github.com/blueschistrocks/surfs_up/blob/0cc29b70920aa723027dcbd61d6ea92d370e70a4/Images/Gmap-Oahu.png)
 
-Most of the stations are located along the northeastern and southern facing shore. If a shop is to be located in these areas data on the swell height, power and direction during different times of the year would be useful in determining when to expect higher customer visits and types of surfing gear they may need. Since the northeastern shore faces northeast swell from between 0 and 95 degrees may provide the best surf. The southern shore faces south swell from 95 to 270 degrees may provide the best surf. I obtained data from the NDBC for Station 51004 - Southeast Hawaii, which is located to the southeast of the Hawaian Islands. Using Pandas and MatplotLib I did some minor ETL and graphed the relevent swell data.
+Most of the stations are located along the northeastern and southern facing shore. If a shop is to be located in these areas data on the swell height, power and direction during different times of the year would be useful in determining when to expect higher customer visits and types of surfing gear they may need. Since the northeastern shore faces northeast swell from between 0 and 95 degrees may provide the best surf. The southern shore faces south swell from 95 to 270 degrees may provide the best surf. I obtained data from the NDBC for Station 51004 - Southeast Hawaii [Link](https://www.ndbc.noaa.gov/view_text_file.php?filename=51004h2021.txt.gz&dir=data/historical/stdmet/), which is located to the southeast of the Hawaian Islands. Using Pandas and MatplotLib I did some minor ETL and graphed the relevent swell data.
 
 #### Plot of Data Buoy Data
 ![image](https://github.com/blueschistrocks/surfs_up/blob/9834de0b3f0cdc76001963199df15a65464a5845/Images/DataBouy_plot(2021).png)
