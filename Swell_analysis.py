@@ -6,7 +6,6 @@ Created on Sat Jan 11 20:39:30 2020
 @author: rvw
 """
 
-#from windrose import WindroseAxes
 import pandas as pd
 from matplotlib import pyplot as plt
 from matplotlib.ticker import (MultipleLocator, FormatStrFormatter, AutoMinorLocator)
@@ -26,7 +25,6 @@ txt_df = txt_df.iloc[1:]
 #Rename Year column
 txt_df = txt_df.rename(columns={'#YY': 'year', 'MM': 'month', 'DD': 'day', 'hh': 'hour', 'mm': 'minute'})
 
-#print(txt_df)  
 
 txt_df['Date'] = pd.to_datetime(txt_df[['year','month','day', 'hour', 'minute']])
 txt_df = txt_df.drop(["year", "month", "day", "hour", "minute"], axis=1)
@@ -56,7 +54,7 @@ textstr7 = "  ".join(map(str, ('Average Swell Direction =',(round(txt_df["MWD"].
 
 fig,ax = plt.subplots(3,sharex=True, figsize=(22, 16))
 txt_df.WVHT.plot(ax=ax[0])
-ax[0].set_title('Bouy Station 51004 Southeast Hawaii - Swell Data', fontsize=24)
+ax[0].set_title('Buoy Station 51004 Southeast Hawaii - Swell Data', fontsize=24)
 ax[0].set_ylabel('Height (feet)',fontsize=16)
 ax[0].tick_params(axis='y', which='major', labelsize=10)
 ax[0].annotate(textstr1, xy=(0, 0), xycoords='axes fraction', xytext= (0.15, 0.95), textcoords='axes fraction')
@@ -78,18 +76,10 @@ ax[2].annotate(textstr5, xy=(0, 0), xycoords='axes fraction', xytext= (0.51, 0.9
 ax[2].annotate(textstr6, xy=(0, 0), xycoords='axes fraction', xytext= (0.51, 0.90), textcoords='axes fraction')
 ax[2].annotate(textstr7, xy=(0, 0), xycoords='axes fraction', xytext= (0.51, 0.85), textcoords='axes fraction')
 
-#ax[2].text(737434, 345, textstr5, style='italic',)
-#ax[2].text(737434, 335, textstr6, style='italic',)
-#ax[2].text(737434, 325, textstr7, style='italic',)
 
 sns.despine()
 
 #plt.show()
 plt.savefig("/Users/robertvanderweele/git/surfs_up/Images/DataBouy_plot(2021).png")
 
-#create a pickle backup
-#pickle_name = input ('Name Output Pickle File with "pickle" Extension: ')
-#txt_df.to_pickle(pickle_name)
-
-
-#print(txt_df)       
+      
