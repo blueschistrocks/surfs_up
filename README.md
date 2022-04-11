@@ -39,8 +39,24 @@ In genreral the temparatue differenace between June and December in Oahu Hawaii 
 
 #### Swell Analysis
 
-Given that this proposed business is a surfshop as well a an ice cream shop an analysis of the best time of the year to surf at differnt locations in Oahu would be helpfull in finding the best locations to place the business. In addition, an analysis of the surfing conditions will help the shop staff make sure that the shop has the right surf gear for the surf conditions. The National Oceanic and Atmospheric Administration's (NOAA) National Weather Service's (NWS) National Data Bouy Center website (https://www.ndbc.noaa.gov/) provides access to ocean data bouys at locations around the island of Ohau.  Based on the latitude/longitude of the weather stations used for the weather analysis I plotted the locations of the stations use Gmap to see whcih parts of the island we analysed the weather.
+Given that this proposed business is a surfshop as well a an ice cream shop an analysis of the best time of the year to surf at differnt locations in Oahu would be helpfull in finding the best locations to place the business. In addition, an analysis of the surfing conditions will help the shop staff make sure that the shop has the right surf gear for the surf conditions. The National Oceanic and Atmospheric Administration's (NOAA) National Weather Service's (NWS) National Data Bouy Center website (https://www.ndbc.noaa.gov/) provides access to ocean data bouys at locations around the island of Ohau.  Based on the latitude/longitude of the weather stations used for the weather analysis I plotted the locations of the stations using Gmap to see whcih parts of the island we analysed the weather.
 
+        #plot the weather station locations
+        import gmaps
+        # Import API key
+        from config import Google_API_KEY
+        # Configure gmaps API key
+        gmaps.configure(api_key=Google_API_KEY)
+        HI_coord = (21.5, -158.05)
+        fig = gmaps.figure(center=HI_coord, zoom_level=9.5)
+        #heat_layer = gmaps.heatmap_layer(locations, weights=max_temp,dissipating=False,
+                     #max_intensity=300, point_radius=4)
+        marker_layer = gmaps.marker_layer(locations)
+        #fig.add_layer(heat_layer)
+        fig.add_layer(marker_layer)
+
+#### Map of Weather Station Locations
+![image](https://github.com/blueschistrocks/surfs_up/blob/0cc29b70920aa723027dcbd61d6ea92d370e70a4/Images/Gmap-Oahu.png)<br>
 
 
 
