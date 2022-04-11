@@ -58,10 +58,12 @@ Given that this proposed business is a surf shop as well as an ice cream shop an
 #### Map of Weather Station Locations
 ![image](https://github.com/blueschistrocks/surfs_up/blob/0cc29b70920aa723027dcbd61d6ea92d370e70a4/Images/Gmap-Oahu.png)
 
-Most of the stations are located along the northeastern and southern facing shore. If a shop is to be located in these areas data on the swell height, power and direction during different times of the year would be useful in determining when to expect higher customer visits and types of surfing gear they may need. Since the northeastern shore faces northeast swell from between 0 and 95 degrees may provide the best surf. The southern shore faces south swell from 95 to 270 degrees may provide the best surf. I obtained data from the NDBC for Station 51004 - Southeast Hawaii [Link](https://www.ndbc.noaa.gov/view_text_file.php?filename=51004h2021.txt.gz&dir=data/historical/stdmet/), which is located to the southeast of the Hawaian Islands. Using Pandas and MatplotLib I did some minor ETL and graphed the relevent swell data.
+Most of the stations are located along the northeastern and southern facing shore. If a shop is to be located in these areas data on the swell height, power and direction during different times of the year would be useful in determining when to expect higher customer visits and types of surfing gear they may need. Since the northeastern shore faces northeast swell from between 0 and 95 degrees may provide the best surf. The southern shore faces south swell from 95 to 270 degrees may provide the best surf. I obtained data from the NDBC for Station 51004 - Southeast Hawaii [Link](https://www.ndbc.noaa.gov/view_text_file.php?filename=51004h2021.txt.gz&dir=data/historical/stdmet/), which is located to the southeast of the Hawaian Islands. Repurposing a python script I created prevousely using Pandas and MatplotLib I did some minor ETL and graphed the relevent swell data.
 
 #### Plot of Data Buoy Data
 ![image](https://github.com/blueschistrocks/surfs_up/blob/9834de0b3f0cdc76001963199df15a65464a5845/Images/DataBouy_plot(2021).png)
+#### Repurposed Python Code
+[Swell_analysis.py](https://github.com/blueschistrocks/surfs_up/blob/feb9e4804f783a21cc488e2fe0d5083f43ee7d36/Swell_analysis.py)
 
 A review of the plot inidcates that there appears to be plenty of swell year round for both the northeastern and southern shores. However the swells arriving from the northeast appear to have the highest swell hieghts and have the highest swells between December and March. Swell peroid is a good indicator of the power of a swell, generally the swell peroid tends to be higher with the northeast swells.
 
