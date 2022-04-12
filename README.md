@@ -1,7 +1,7 @@
 # surfs_up
 
 ## Project Overview 
-The project intailed an analysis the temperature trends for the months of June and December in Oahu, Hawaii, in order to evaluate the year-round sustainability of a surf and ice cream shop. Python, Pandas, SQLite and SQLAlchemy were used to perform this analysis.
+The project entailed an analysis the temperature trends for the months of June and December in Oahu, Hawaii, in order to evaluate the year-round sustainability of a surf and ice cream shop. Python, Pandas, SQLite and SQLAlchemy were used to perform this analysis.
 
 ## Resources
 - Data Sources: [hawaii.sqlite](https://github.com/blueschistrocks/surfs_up/blob/f7a7727131863c205aeba0a78353a236c1dfdae1/hawaii.sqlite)
@@ -9,11 +9,11 @@ The project intailed an analysis the temperature trends for the months of June a
 
 ## Results Discussion
 
-June temperatures in the years 2010 to 2017 ranged from a low of 64 to a high of 85 degrees fahrenheit. December temperatures in the years 2010 to 2016 ranged from low of 56 to a high of 83 degrees fahrenheit. The average temperature in June in the years 2010 to 2017 was 75 degrees fahrenheit and December's average temperature in the years 2010 to 2016 was 71 degrees fahrenheit. 50% of June and December temperatures in the years analyzed were above 75 and 71 degrees fahrenheit, respectively. The standard deviation for December's temperatures was slightly higher than for June indicating that temparatures were more varied in December. 
+June temperatures in the years 2010 to 2017 ranged from a low of 64 to a high of 85 degrees Fahrenheit. December temperatures in the years 2010 to 2016 ranged from low of 56 to a high of 83 degrees Fahrenheit. The average temperature in June in the years 2010 to 2017 was 75 degrees fahrenheit and December's average temperature in the years 2010 to 2016 was 71 degrees Fahrenheit. 50% of June and December temperatures in the years analyzed were above 75 and 71 degrees Fahrenheit, respectively. The standard deviation for December's temperatures was slightly higher than for June indicating that temperatures were more varied in December. 
 
 
 ## Summary
-In genreral the temparatue differenace between June and December in Oahu Hawaii does not tend to vary, however December has slighly cooler tempuratures than June. Based on this analysis the weather should be suiteable for an surf and icecream shop.
+In general, the temperature difference between June and December in Oahu Hawaii does not tend to vary, however December has slightly cooler temperatures than June. Based on this analysis the weather should be suitable for a surf and ice cream shop.
 
 ## Images of Analysis Output
 
